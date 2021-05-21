@@ -14,12 +14,14 @@ body {
 }
 
 a {
-  color: #1bac91;
+  color: #ee6000;
+  /*color: #ee6000;*/
   text-decoration: none;
 }
 
 a:hover {
-  color: #22d8b6;
+  /*color: #22d8b6;*/
+  color: #ee6000;
   text-decoration: none;
 }
 
@@ -37,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #1bac91;
+  background: #ee6000;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -157,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 3px;
   left: 0;
-  background-color: #1bac91;
+  background-color: #ee6000;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -204,7 +206,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #1bac91;
+  /*color: #ee6000;*/
+  color:  #ee6000;
 }
 
 .navbar .dropdown:hover > ul {
@@ -301,7 +304,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #1bac91;
+  color: #ee6000;
 }
 
 .navbar-mobile .getstarted {
@@ -333,7 +336,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #1bac91;
+  /*color: #ee6000;*/
+  color: #ee6000;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -346,7 +350,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: calc(100vh - 70px);
-  background: url("../img/hero-bg.jpg") center center;
+  background: url("../img/home-1.jpg") center center;
   background-size: cover;
   position: relative;
   margin-top: 70px;
@@ -396,8 +400,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  border-color: #1bac91;
-  background: #1bac91;
+  border-color: #ee6000;
+  background: #ee6000;
 }
 
 @media (min-width: 1024px) {
@@ -530,7 +534,7 @@ section {
 .about .icon-box i {
   font-size: 48px;
   float: left;
-  color: #1bac91;
+  color: #ee6000;
 }
 
 .about .icon-box h4 {
@@ -568,7 +572,7 @@ section {
   display: block;
   font-size: 24px;
   font-weight: 400;
-  color: #1bac91;
+  color: #ee6000;
 }
 
 .steps .content-item h4 {
@@ -607,7 +611,7 @@ section {
 }
 
 .features .nav-link:hover {
-  color: #1bac91;
+  color: #ee6000;
 }
 
 .features .nav-link h4 {
@@ -625,7 +629,7 @@ section {
 }
 
 .features .nav-link.active h4 {
-  color: #1bac91;
+  color: #ee6000;
 }
 
 .features .tab-pane.active {
@@ -777,11 +781,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #1bac91;
+  border: 1px solid #ee6000;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #1bac91;
+  background-color: #ee6000;
 }
 
 /*--------------------------------------------------------------
@@ -816,7 +820,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #1bac91;
+  color: #ee6000;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -962,11 +966,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #1bac91;
+  border: 1px solid #ee6000;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #1bac91;
+  background-color: #ee6000;
 }
 
 .portfolio-details .portfolio-info {
@@ -1068,7 +1072,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #1bac91;
+  color: #ee6000;
 }
 
 .team .member .social i {
@@ -1156,7 +1160,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #1bac91;
+  color: #ee6000;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1185,7 +1189,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #1bac91;
+  color: #ee6000;
   float: left;
   width: 44px;
   height: 44px;
@@ -1236,12 +1240,12 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #1bac91;
+  background: #ee6000;
   color: #fff;
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #1bac91;
+  background: #ee6000;
   color: #fff;
 }
 
@@ -1313,7 +1317,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #1bac91;
+  background: #ee6000;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1395,7 +1399,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #1bac91;
+  background: #ee6000;
   color: #fff;
   text-decoration: none;
 }
@@ -1469,7 +1473,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #1bac91;
+  background: #ee6000;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
