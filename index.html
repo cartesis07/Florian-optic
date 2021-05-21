@@ -672,13 +672,13 @@
 
         <div class="row mt-5 justify-content-center" data-aos="fade-up">
           <div class="col-lg-10">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form method="POST" role="form" class="php-email-form" action="https://formspree.io/f/xzbyeqle" id="email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Nom" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                  <input type="email" class="form-control" name="_replyto" id="email" placeholder="Email" required>
                 </div>
               </div>
               <div class="form-group mt-3">
@@ -688,11 +688,12 @@
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
               <div class="my-3">
-                <div class="loading">Chargement</div>
+                <p id="my-form-status"></p>
+                <!-- <div class="loading">Chargement</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Votre message a bien été envoyé. Merci !</div>
+                <div class="sent-message">Test</div> -->
               </div>
-              <div class="text-center"><button type="submit">Envoyer</button></div>
+              <div class="text-center"><button type="submit" id="email-form-status">Envoyer</button></div>
             </form>
           </div>
 
@@ -784,5 +785,34 @@
   <script src="assets/js/main.js"></script>
 
 </body>
+
+
+
+<script>
+  var form = document.getElementById("email-form");
+  
+  async function handleSubmit(event) {
+    event.preventDefault();
+    var status = document.getElementById("email-form-status");
+    var data = new FormData(event.target);
+    fetch(event.target.action, {
+      method: form.method,
+      body: data,
+      headers: {
+          'Accept': 'application/json'
+      }
+    }).then(response => {
+      status.innerHTML = "Merci pour votre message !";
+      form.reset()
+    }).catch(error => {
+      status.innerHTML = "Oups ! Il y a eu un problème avec votre message !"
+    });
+  }
+  form.addEventListener("submit", handleSubmit)
+</script>
+
+
+
+
 
 </html>
