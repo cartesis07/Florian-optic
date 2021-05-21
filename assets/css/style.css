@@ -350,7 +350,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: calc(100vh - 70px);
-  background: url("../img/home-1.jpg") center center;
+  background: url("../img/home-2.jpg") center center;
   background-size: cover;
   position: relative;
   margin-top: 70px;
