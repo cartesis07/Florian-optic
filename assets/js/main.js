@@ -248,7 +248,7 @@ $(document).ready(function(){
       autoplaySpeed: 1000,
       arrows: false,
       dots: false,
-      pauseOnHover: true,
+      pauseOnHover: false,
       responsive: [{
           breakpoint: 768,
           settings: {
@@ -262,3 +262,8 @@ $(document).ready(function(){
       }]
   });
 });
+
+// highlight current day on opeining hours
+$(document).ready(function() {
+  $('.opening-hours li').eq(new Date().getDay()).addClass('today');
+  });
