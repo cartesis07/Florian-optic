@@ -439,6 +439,7 @@ section {
 
 .section-bg {
   background-color: #f2f9f8;
+  /*background-color: #fffaf8;*/
 }
 
 .section-title {
@@ -723,6 +724,14 @@ section {
 
 .services .icon-box-blue .icon i {
   color: #2282ff;
+}
+
+.services .icon-box-red .icon i {
+  color: #ee6000;
+}
+
+.services .icon-box-yellow .icon i {
+  color: #ffc000;
 }
 
 /*--------------------------------------------------------------
