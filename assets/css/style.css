@@ -670,6 +670,12 @@ section {
   }
 }
 
+/*
+# Pubs
+*/
+
+
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -1535,7 +1541,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #ee6000;
+  background: #3b5998;
   color: #fff;
   text-decoration: none;
 }
