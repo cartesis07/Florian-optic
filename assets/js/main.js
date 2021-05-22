@@ -263,7 +263,8 @@ $(document).ready(function(){
   });
 });
 
-// highlight current day on opeining hours
+// highlight current day on opening hours
 $(document).ready(function() {
-  $('.opening-hours li').eq(new Date().getDay()).addClass('today');
+  console.log(new Date().getDay() + 1)
+  $('.opening-hours li').eq(new Date().getDay() - 1).addClass('today');
   });
