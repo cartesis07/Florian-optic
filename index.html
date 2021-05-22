@@ -48,7 +48,7 @@
     <div class="container d-flex justify-content-between">
 
       <div class="logo">
-        <h1><a href="index.html">Fl<span style="color: #ee6000; font-size: 32px;">O</span>rian <span style="color:#fff905; font-size: 32px;">O</span>ptic</a></h1>
+        <h1><a href="#">Fl<span style="color: #ee6000; font-size: 32px;">O</span>rian <span style="color:#fff905; font-size: 32px;">O</span>ptic</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -377,6 +377,9 @@
           <h2>Offres promotionnelles</h2>
           <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
         </div>
+
+
+
 
     </div>
     </section>
@@ -849,6 +852,45 @@
     });
   }
   form.addEventListener("submit", handleSubmit)
+</script>
+
+<script>
+  $(document).ready(function() {
+    var promo = [{
+        link: '#',
+        alt: 'Promo 1',
+        img: 'https://dummyimage.com/300x200/000/fff.jpg&text=Deal+1'
+      },
+      {
+        link: '#',
+        alt: 'Promo 2',
+        img: 'https://dummyimage.com/300x200/c52929/fff.jpg&text=Deal+2'
+      },
+      {
+        link: '#',
+        alt: 'Promo 3',
+        img: 'https://dummyimage.com/300x200/b7b935/fff.jpg&text=Deal+3'
+      },
+      {
+        link: '#',
+        alt: 'Deal 4',
+        img: 'https://dummyimage.com/300x200/059832/fff.jpg&text=Deal+4'
+      },
+    ];
+    $('body').promoDeal({
+      titleBkgColor: '#ee6000', // header background-color
+      titleColor: 'white', // title color
+      title: "Cliquez ici pour voir les promotions du moment ! ", // title
+      promos: promo, // array of promos
+      singleLink: false,
+      noTrack: true,
+      arrows: true,
+      variableWidth: true,
+      height: '40vh',
+      mobHeight: '50vh',
+      //css: 'promoCSS.css'
+    });
+  });
 </script>
 
 
