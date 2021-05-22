@@ -439,7 +439,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f2f9f8;
+  background-color: #fffcfa;
   /*background-color: #fffaf8;*/
 }
 
@@ -1278,7 +1278,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #97cac2;
+  color: #EE6000;
 }
 
 .faq .faq-list .icon-show, .faq .faq-list .icon-close {
