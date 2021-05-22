@@ -1415,7 +1415,7 @@ section {
   color: #fff;
 }
 
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+.contact .info .email:hover i, .contact .info .tramway:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
   background: #ee6000;
   color: #fff;
 }
