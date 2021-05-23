@@ -4,4 +4,4 @@ Site vitrine de Florian Optic
 
 # Coding Doc
 
-[Personal documentation](https://www.notion.so/Multiplayer-Browser-Cards-Game-4e1fe30ebb134fb6a5a3e6d89b67f6ba)
+[Personal documentation](https://www.notion.so/Florian-Optic-b884a851ac2344f5883fc9cd68ae1c46)
