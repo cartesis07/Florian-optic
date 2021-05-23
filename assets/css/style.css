@@ -439,8 +439,9 @@ section {
 }
 
 .section-bg {
-  background-color: #fffcfa;
+  /*background-color: #fffcfa;*/
   /*background-color: #fffaf8;*/
+  background-color: #f2f9f8;
 }
 
 .section-title {
@@ -689,6 +690,7 @@ section {
   border-radius: 15px;
   text-align: center;
   border-bottom: 3px solid #fff;
+  margin-bottom: 20px;
 }
 
 .services .icon-box:hover {
@@ -1644,7 +1646,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #ee6000;
+
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
