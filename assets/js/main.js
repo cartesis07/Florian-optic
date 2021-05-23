@@ -609,6 +609,11 @@ function promoNextIrr(margin) {
   }
 }
 
+$(window).scroll(function(){
+  $("#promosDrawer").css("opacity", 1 - $(window).scrollTop() / 100);
+});
+
+
 
 
 

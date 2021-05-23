@@ -1724,6 +1724,7 @@ section {
   background: #000;
   border-radius: 2px 2px 0 0;
   border: 2px solid black;
+  border-top: none;
   border-bottom: none;
   color: #fff;
   text-align: center;
@@ -1731,7 +1732,6 @@ section {
   display: inline-block;
   letter-spacing: 1px;
   padding: 16px 10px 0px;
-  text-transform: uppercase;
   position: absolute;
   top: 0;
   left: 50%;
@@ -1752,14 +1752,17 @@ section {
     width: 80%;
     display: block;
     margin: auto;
+    font-style: bold;
   }
 
   #promosDrawer .promos-container .promos-header span.long-title {
     font-size: 14px;
+    font-style: bold;
   }
 
   #promosDrawer .promos-container .promos-header span.very-long-title {
     font-size: 12px;
+    font-style: bold;
   }
 }
 
@@ -1768,11 +1771,13 @@ section {
     font-size: 12px;
     line-height: 15px;
     margin-top: -15px;
+    font-style: bold;
   }
   #promosDrawer .promos-container .promos-header span.very-long-title {
     font-size: 10px;
     line-height: 13px;
     margin-top: -13px;
+    font-style: bold;
   }
 }
 
@@ -1782,7 +1787,6 @@ section {
 
 #promosDrawer .promos-container .promos-header span {
   color: white;
-  text-transform: uppercase;
 }
 
 #promosDrawer .promos-container .promos-header.up span:after {
@@ -1790,13 +1794,6 @@ section {
   color: white;
   position: absolute;
   right: 5px;
-}
-
-#promosDrawer .promos-container .promos-header span:before {
-  content: url(https://lechateau.scene7.com/is/image/LeChateau/promoDeal-label?$png-full$);
-  position: absolute;
-  left: 15px;
-  top: 8px;
 }
 
 #promosDrawer .promos-container .promos-wrap {
