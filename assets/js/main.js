@@ -5,6 +5,7 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
 (function() {
   "use strict";
 
@@ -613,9 +614,8 @@ $(window).scroll(function(){
 });
 
 
-$(".smartsearch_keyword").select2({
-  multiple: true,
-});
+
+
 
 $(document).ready(function(){
   $('.customer-logos').slick({
@@ -645,3 +645,7 @@ $(document).ready(function() {
   console.log(new Date().getDay() + 1)
   $('.opening-hours li').eq(new Date().getDay() - 1).addClass('today');
   });
+
+
+
+
