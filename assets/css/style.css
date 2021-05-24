@@ -1349,7 +1349,7 @@ section {
   border-bottom: none; 
   }
   .business-hours .opening-hours li.today {
-  color: #ee6000;
+  color: #ee6000 !important;
   }
 
 
@@ -1953,4 +1953,8 @@ section {
 #promosDrawer #arrowsPromoDeal .promo-arrow.reach-end:hover {
   opacity: 0;
   cursor: context-menu;
+}
+
+.disabled {
+  color:black !important; 
 }
