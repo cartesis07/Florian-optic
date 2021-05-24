@@ -1936,13 +1936,13 @@ section {
 #promosDrawer #arrowsPromoDeal .promo-arrow.prev {
   left: 0%;
   left: calc(0% + 1vw);
-  background: url(https://lechateau.scene7.com/is/image/LeChateau/icon-30x30-prev?$png-full$);
+  background: url("../img/arrow left.png"); /*background: url(https://lechateau.scene7.com/is/image/LeChateau/icon-30x30-prev?$png-full$);*/
 }
 
 #promosDrawer #arrowsPromoDeal .promo-arrow.next {
   right: 0%;
   right: 1vw;
-  background: url(https://lechateau.scene7.com/is/image/LeChateau/icon-30x30-next?$png-full$);
+  background: url("../img/arrow right.png");  /*background: url(https://lechateau.scene7.com/is/image/LeChateau/icon-30x30-next?$png-full$);*/
 }
 
 #promosDrawer #arrowsPromoDeal .promo-arrow.reach-end {
